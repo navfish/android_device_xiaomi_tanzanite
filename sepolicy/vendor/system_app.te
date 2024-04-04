@@ -6,3 +6,7 @@ rw_dir_file(system_app, sysfs_therm)
 
 # CPU
 allow system_app proc_stat:file { read open getattr };
+
+# FM Radio
+get_prop(system_app, vendor_mtk_wmt_prop)
+get_prop(system_app, vendor_mtk_default_prop)
