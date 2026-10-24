@@ -1491,7 +1491,6 @@ vendor/lib/libh264dec_se.ca7.so;DISABLE_CHECKELF
 vendor/lib/libh264enc_sa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libhevce_sb.ca7.android.so;DISABLE_CHECKELF
 vendor/lib/libion_ulit.so
-vendor/lib/libladder.so
 vendor/lib/libmp4enc_sa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libmp4enc_xa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libvcodec_oal.so;DISABLE_CHECKELF
