@@ -286,7 +286,8 @@ $(call soong_config_set,wpa_supplicant_8,wifi_disable_wpa_version_3,true)
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     wpa_supplicant \
-    hostapd
+    hostapd \
+    libwifi-hal-wrapper:64
 
 # Wifi configs
 PRODUCT_COPY_FILES += \
@@ -388,7 +389,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/mediatek/libaedv \
     hardware/mediatek/libmtkperf_client \
-    hardware/mediatek/wlan/wifi_hal \
     hardware/xiaomi \
     hardware/google/interfaces \
     hardware/google/pixel/pixelstats \
