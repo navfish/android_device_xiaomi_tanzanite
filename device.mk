@@ -151,7 +151,8 @@ PRODUCT_COPY_FILES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    FMTuner
+    FMTuner \
+    libmtkfmjni
 
 # IMS
 $(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
