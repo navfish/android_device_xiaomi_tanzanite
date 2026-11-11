@@ -151,7 +151,7 @@ PRODUCT_COPY_FILES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    FMTuner \
+    FMRadio \
     libmtkfmjni
 
 # IMS
