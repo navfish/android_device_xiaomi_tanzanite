@@ -103,7 +103,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     MtkInCallService \
-    DolbyAtmos
+    XiaomiDolby
 
 # Audio Configuration
 PRODUCT_COPY_FILES += \
